@@ -20,7 +20,7 @@ training_data
 training_data = training_data.drop(['Unnamed: 0'], axis = 1)
 
 
-from PyEMD import EMD
+from PyEMD import EMD  #from https://github.com/laszukdawid/PyEMD
 
 params = ['GR',  'DeltaPHI', 'PHIND', 'PE']
 wells = ['SHRIMPLIN', 'ALEXANDER D', 'SHANKLE', 'LUKE G U', 'KIMZEY A', 'CROSS H CATTLE', 'NOLAN', 'Recruit F9', 'NEWBY', 'CHURCHMAN BIBLE']
